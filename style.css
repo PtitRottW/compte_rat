@@ -1,144 +1,46 @@
 body {
-  
- 
-margin: 0;
-  
-  padd
-
- 
-padding: 0;
-  
-  displa
-
-  dis
-
- 
-display: flex;
-  
-  justify-con
-
-  justif
-
-  j
-justify-content: center;
-  
-  align
-align-items: center;
-  
-  
-width: 100vw;
-  
-  heig
-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
   background: #f0f0f0;
-  
-  over
-overflow: hidden;
+  overflow: hidden;
 }
 
-
-}
 .container {
-  
-  posi
-
-  
-position: relative;
-  width: 1920px;
-  
- 
-height: 1080px;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
 .rat {
-  
-  posit
-
-  po
-
- 
-position: absolute;
+  position: absolute;
   width: 150px;
   height: 150px;
-  
-  backgroun
-
-  back
-background: url('rat-tail.png') no-repeat center;
-  
-  backgr
-
-  
-background-size: contain;
-  
-  dis
-display: flex;
-  
-  justify-conte
-
-  justify
-
-  j
-justify-content: center;
-  
-  align-
-align-items: flex-end;
-  
-  anima
-animation: jump 1s infinite ease-in-out;
+  background: url('rat-tail.png') no-repeat center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-
-}
 .timer {
-  
-  posi
-
- 
-position: absolute;
-  
-  bo
-bottom: 20px;
-  
-  
-font-size: 1.5rem;
-  
- 
-font-weight: bold;
-  
-  colo
-
-  c
-color: white;
-  
-  text-shad
-
-  text
-text-shadow: 2px 2px 5px black;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px black;
 }
 
 @keyframes jump {
-  
- 
-0%, 100% {
-    
-    tran
-transform: translateY(0);
+  0%, 100% {
+    transform: translateY(0);
   }
-  
-  
-50% {
-    
-    transf
-
- 
-transform: translateY(-50px);
-  }
-}
-
-  }
-}
-``
-
+  50% {
+    transform: translateY(-30px);
   }
 }
