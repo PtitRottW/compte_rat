@@ -1,40 +1,144 @@
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: transparent;
-  overflow: hidden;
+  
+ 
+margin: 0;
+  
+  padd
+
+ 
+padding: 0;
+  
+  displa
+
+  dis
+
+ 
+display: flex;
+  
+  justify-con
+
+  justif
+
+  j
+justify-content: center;
+  
+  align
+align-items: center;
+  
+  
+width: 100vw;
+  
+  heig
+height: 100vh;
+  background: #f0f0f0;
+  
+  over
+overflow: hidden;
 }
 
+
+}
 .container {
-  position: relative;
-  width: 400px;
-  height: 400px;
+  
+  posi
+
+  
+position: relative;
+  width: 1920px;
+  
+ 
+height: 1080px;
 }
 
-.rat-tail {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  background: url('rat-tail.png') no-repeat center;
-  background-size: contain;
-  animation: moveTail 10s linear infinite;
+.rat {
+  
+  posit
+
+  po
+
+ 
+position: absolute;
+  width: 150px;
+  height: 150px;
+  
+  backgroun
+
+  back
+background: url('rat-tail.png') no-repeat center;
+  
+  backgr
+
+  
+background-size: contain;
+  
+  dis
+display: flex;
+  
+  justify-conte
+
+  justify
+
+  j
+justify-content: center;
+  
+  align-
+align-items: flex-end;
+  
+  anima
+animation: jump 1s infinite ease-in-out;
 }
 
-@keyframes moveTail {
-  0% { transform: rotate(0deg) translateX(0); }
-  100% { transform: rotate(360deg) translateX(0); }
+
+}
+.timer {
+  
+  posi
+
+ 
+position: absolute;
+  
+  bo
+bottom: 20px;
+  
+  
+font-size: 1.5rem;
+  
+ 
+font-weight: bold;
+  
+  colo
+
+  c
+color: white;
+  
+  text-shad
+
+  text
+text-shadow: 2px 2px 5px black;
 }
 
-.countdown {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 5rem;
-  font-family: Arial, sans-serif;
-  color: black;
+@keyframes jump {
+  
+ 
+0%, 100% {
+    
+    tran
+transform: translateY(0);
+  }
+  
+  
+50% {
+    
+    transf
+
+ 
+transform: translateY(-50px);
+  }
+}
+
+  }
+}
+``
+
+  }
 }
